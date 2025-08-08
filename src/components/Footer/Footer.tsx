@@ -1,14 +1,20 @@
 import { Box } from '@mui/material';
+import { useTranslation } from 'react-i18next';
 import logoIC from '@/assets/images/logo.png';
 import { footerContentStyle, footerStyle, gradientLineStyle } from './style';
 
-const Footer = () => (
-  <Box sx={footerStyle}>
-    <Box sx={gradientLineStyle} />
-    <Box sx={footerContentStyle}>
-      <img src={logoIC} alt="Iespa Church Logo" height="100%" />
-      <span>© IESPA 2025 | Produced by Lofty Reign Studios | All rights reserved.</span>
+const Footer = () => {
+  const { t } = useTranslation();
+  
+  return (
+    <Box sx={footerStyle}>
+      <Box sx={gradientLineStyle} />
+      <Box sx={footerContentStyle}>
+        <img src={logoIC} alt={t('components.footer.logoAlt')} height="100%" />
+        <span>{t('components.footer.copyright')}</span>
+      </Box>
     </Box>
-  </Box>
-);
+  );
+};
+
 export default Footer;
