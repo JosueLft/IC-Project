@@ -2,8 +2,39 @@
     "appName": "Iespa Church",
     "pages": {
         "home": {
-            "title": "Iespa Church - Home",
-            "description": "Welcome to Iespa Church, where faith meets community."
+            "title": "Iespa Church - Início",
+            "description": "Bem-vindo à Iespa Church, onde a fé encontra a comunidade.",
+            "eventsTitle": "Eventos da Semana",
+            "welcomeMessage": "Bem-vindo à Iespa Church"
+        },
+        "events": {
+            "title": "Eventos",
+            "description": "Confira os próximos eventos da nossa igreja.",
+            "labels": {
+                "event": "Evento",
+                "date": "Data", 
+                "time": "Horário",
+                "location": "Local",
+                "address": "Endereço",
+                "zipCode": "CEP",
+                "country": "País",
+                "fullLocation": "Localização Completa"
+            },
+            "actions": {
+                "learnMore": "Saiba Mais",
+                "collapse": "Recolher",
+                "eventProcessed": "Evento {{title}} processado!"
+            }
+        }
+    },
+    "components": {
+        "expandableArea": {
+            "learnMore": "Saiba Mais",
+            "collapse": "Recolher"
+        },
+        "footer": {
+            "logoAlt": "Logo da Igreja Iespa",
+            "copyright": "© IESPA 2025 | Produzido por Lofty Reign Studios | Todos os direitos reservados."
         }
     }
 }

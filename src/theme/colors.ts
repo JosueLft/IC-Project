@@ -55,6 +55,8 @@ const colors = {
   text: {
     primary: '#ffffff',
     secondary: '#E0E0E0',
+    tertiary: '#cccccc',
+    quaternary: '#666666',
     hover: 'rgba(244, 244, 244, 0.80)',
     disabled: 'rgba(255, 255, 255, 0.33)',
   },
@@ -68,6 +70,8 @@ const colors = {
   },
   border: {
     primary: 'rgba(82, 82, 82, 0.6)',
+    secondary: '#444444',
+    light: '#eee',
   },
   tag: {
     error: '#DE3563',
