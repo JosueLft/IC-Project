@@ -1,11 +1,33 @@
 {
-    "appName": "Iespa Church",
+    "appName": "Iespa",
     "pages": {
         "home": {
-            "title": "Iespa Church - Início",
-            "description": "Bem-vindo à Iespa Church, onde a fé encontra a comunidade.",
+            "title": "Início",
+            "description": "IESPA lugar de vida e adoração.",
             "eventsTitle": "Eventos da Semana",
-            "welcomeMessage": "Bem-vindo à Iespa Church"
+            "welcomeMessage": "IESPA lugar de vida e adoração.",
+            "slogan": "IESPA lugar de vida e adoração.",
+            "socialMedia": {
+                "followUs": "Siga-nos"
+            },
+            "todayEvent": {
+                "title": "Hoje na IESPA:",
+                "learnMore": "Saiba Mais"
+            },
+            "newsletter": {
+                "title": "Newsletter",
+                "subtitle": "Fique por dentro das novidades da IESPA",
+                "fields": {
+                    "name": "Nome",
+                    "email": "E-mail",
+                    "whatsapp": "WhatsApp"
+                },
+                "button": "Enviar"
+            },
+            "location": {
+                "title": "Venha nos conhecer",
+                "address": "Av. Cangaíba - São Paulo, SP"
+            }
         },
         "events": {
             "title": "Eventos",
@@ -25,6 +47,78 @@
                 "collapse": "Recolher",
                 "eventProcessed": "Evento {{title}} processado!"
             }
+        },
+        "about": {
+            "title": "A Igreja",
+            "description": "Conheça mais sobre a IESPA",
+            "sections": {
+                "description": {
+                    "title": "IESPA - Lugar de Vida e Adoração",
+                    "content": "Na IESPA, lugar de vida e adoração sempre terá espaços para quem deseja se envolver na obra do Senhor. Seja qual for seu dom, habilidade ou interesse, aqui você encontrará uma oportunidade para desenvolver o seu chamado e se integrar ao Corpo de Cristo.",
+                    "callToAction": "Junte-se a nós e seja parte dessa visão!"
+                },
+                "leadership": {
+                    "title": "Presidência",
+                    "subtitle": "Bispo Esdras & Bispa Lucy",
+                    "description": "Em 2013, receberam de Deus uma direção clara: iniciar um trabalho que impactasse vidas de forma profunda. Desde então, caminham guiados por uma estratégia divina de aprofundamento na Palavra, na adoração e na oração.",
+                    "vision": "O que move seu coração é ensinar a Palavra para que cada pessoa chegue ao pleno conhecimento da verdade de Cristo. Com coragem e dependência total de Deus, têm enfrentado e superado cada desafio, sempre guiados pela direção do Senhor.",
+                    "result": "A marca da IESPA é resultado dessa visão: uma igreja que enfatiza o ensino sólido da Palavra e vive a liberdade na adoração. Sob a liderança do Bispo Esdras e da Bispa Lucy, a IESPA se tornou um lugar de crescimento, transformação e presença viva de Deus."
+                },
+                "ministries": {
+                    "title": "Ministérios IESPA",
+                    "details": "Detalhes",
+                    "list": {
+                        "diaconato": {
+                            "name": "Diaconato",
+                            "leader": "Pra. Andrea",
+                            "shortDescription": "Servindo com amor e ordem para acolher cada pessoa como Cristo.",
+                            "longDescription": "Servindo com excelência e amor, o Diaconato cuida para que cada culto e evento aconteça com ordem e acolhimento, refletindo o coração de Cristo no cuidado com cada pessoa que chega à IESPA."
+                        },
+                        "intercessao": {
+                            "name": "Intercessão",
+                            "leader": "Pra. Renata",
+                            "shortDescription": "Orando com fé e autoridade, intercedendo pela igreja e pela nação.",
+                            "longDescription": "Unidos em oração, este ministério se coloca na brecha pela igreja, famílias e nação. Aqui, intercedemos com fé, crendo no mover de Deus e no poder da oração que transforma realidades."
+                        },
+                        "louvor": {
+                            "name": "Louvor",
+                            "leader": "Pr. Adriano",
+                            "shortDescription": "Conduzindo corações à presença de Deus em adoração genuína.",
+                            "longDescription": "Mais que música, o Louvor é adoração genuína. Nosso propósito é conduzir a igreja à presença de Deus, criando um ambiente onde corações são tocados e vidas, restauradas."
+                        },
+                        "infantil": {
+                            "name": "Infantil",
+                            "leader": "Prof. Ivani",
+                            "shortDescription": "Ensinando a Palavra às crianças de forma criativa e transformadora.",
+                            "longDescription": "Plantando a Palavra no coração das crianças, o Ministério Infantil ensina princípios bíblicos de forma criativa e alegre, formando a nova geração para amar e servir a Jesus."
+                        },
+                        "teens": {
+                            "name": "Teens",
+                            "leader": "Alan & Mayara",
+                            "shortDescription": "Conectando adolescentes a Cristo com fé, amizade e propósito.",
+                            "longDescription": "Apoiando adolescentes em sua caminhada com Cristo, o Ministério Teens oferece um espaço de amizade, discipulado e crescimento espiritual. Aqui, eles aprendem a viver a fé de forma relevante para sua geração, firmando valores bíblicos para toda a vida."
+                        },
+                        "ensino": {
+                            "name": "Ensino",
+                            "leader": "Pr. Silvio",
+                            "shortDescription": "Fortalecendo a fé com fundamentos bíblicos sólidos.",
+                            "longDescription": "Aprofundando raízes na Palavra, o Ministério de Ensino prepara e discipula, equipando a igreja com fundamentos sólidos para viver e compartilhar o Evangelho."
+                        },
+                        "acaoSocial": {
+                            "name": "Ação Social",
+                            "leader": "Miss. Renata",
+                            "shortDescription": "Demonstrando o amor de Cristo através de ações práticas.",
+                            "longDescription": "Com mãos estendidas e coração aberto, levamos cuidado e apoio a quem precisa. A Ação Social expressa o amor de Cristo através de atitudes práticas e solidárias."
+                        },
+                        "midia": {
+                            "name": "Mídia",
+                            "leader": "Thaís",
+                            "shortDescription": "Levando a mensagem da IESPA para além das paredes da igreja.",
+                            "longDescription": "Transformando mensagens em imagens e sons, o Ministério de Mídia leva a Palavra além das paredes da igreja, alcançando vidas e transmitindo a essência da IESPA a cada conteúdo."
+                        }
+                    }
+                }
+            }
         }
     },
     "components": {
@@ -34,7 +128,7 @@
         },
         "footer": {
             "logoAlt": "Logo da Igreja Iespa",
-            "copyright": "© IESPA 2025 | Produzido por Lofty Reign Studios | Todos os direitos reservados."
+            "copyright": "© IESPA 2025 | Todos os direitos reservados à IESPA."
         }
     }
 }

@@ -6,12 +6,14 @@ import { CSSProperties } from 'react';
 export const navBarContainerStyle: CSSProperties = {
   width: '100%',
   height: '75px',
-  background: colors.background.primary,
+  background: colors.background.secondary,
   boxShadow: shadows.inset,
-  borderBottom: `1px solid ${colors.gray.dark}`,
+  borderBottom: `1px solid ${colors.borderCard.primary}`,
   display: 'flex',
   justifyContent: 'space-between',
   position: 'fixed',
+  zIndex: 1000,
+  top: 0,
 };
 
 export const navigationContainerStyles: CSSProperties = {
